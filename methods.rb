@@ -112,26 +112,26 @@
 #
 # TODO - write blackjack (tests first)
 
-def blackjack(a,b)
+# def blackjack(a,b)
 
-	if a >= 21 || b >= 21
+# 	if a >= 21 || b >= 21
 
-		return 0
+# 		return 0
 
-	elsif a < 21 || b < 21
-		
-		c = 21 - a
-		d = 21 - b 
+# 	elsif a < 21 || b < 21
 
-		if c > d
-			return b 
-		end
+# 		c = 21 - a
+# 		d = 21 - b 
 
-		return a
+# 		if c > d
+# 			return b 
+# 		end
 
-	end
+# 		return a
 
-end
+# 	end
+
+# end
 # n_twice
 #
 # Given a string and an int n, return a string made of the first and last n 
@@ -147,6 +147,9 @@ end
 #
 # TODO - write n_twice (tests first)
 
+def n_twice(str, n)
+
+end
 
 # close_far
 #

@@ -55,24 +55,40 @@ describe 'Methods' do
 
   # end
 
-  describe 'blackjack' do
+  # describe 'blackjack' do
 
-    it 'return value nearest 21' do
-      blackjack(4, 6).must_equal(6)
+  #   it 'return value nearest 21' do
+  #     blackjack(4, 6).must_equal(6)
+  #   end
+
+  #   it 'return value nearest 0' do
+  #     blackjack(23, 25).must_equal(0)
+  #   end
+
+  # end
+
+  describe 'n_twice' do
+
+    it '' do
+
     end
 
-    it 'return value nearest 0' do
-      blackjack(23, 25).must_equal(0)
+    it '' do
+
     end
 
   end
 
-  # describe 'n_twice' do
-
-  # end
-
   # describe 'close_far' do
 
+  #   it '' do
+
+  #   end
+
+  #   it '' do
+
+  #   end
+    
   # end
 
 end
