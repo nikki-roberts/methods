@@ -20,17 +20,17 @@
 #
 # TODO - write sleep_in?
 
-def sleep_in?(weekday, vacation)
-	if vacation
-		return true
-	end
-	if weekday 
-		return false
-	end
-	if !weekday
-		return true
-	end
-end
+# def sleep_in?(weekday, vacation)
+# 	if vacation
+# 		return true
+# 	end
+# 	if weekday 
+# 		return false
+# 	end
+# 	if !weekday
+# 		return true
+# 	end
+# end
 
 
 # monkey_trouble?
@@ -47,7 +47,25 @@ end
 #
 # TODO - write monkey_trouble?
 
-
+def monkey_trouble?(a_smile, b_smile)
+	if a_smile
+		if b_smile
+			return true
+		end
+		return false
+	end
+	if b_smile
+		if a_smile
+			return true
+		end
+		return false
+	end
+	if !b_smile
+		if !a_smile
+			return true
+		end
+	end
+end
 # sum_double
 #
 # Given two int values, return their sum. Unless the two values are the same,
