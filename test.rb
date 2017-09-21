@@ -3,25 +3,25 @@ require './methods'
 
 describe 'Methods' do
 
-  describe 'sleep_in' do
+  # describe 'sleep_in' do
 
-    it 'should sleep in on the weekend at home' do
-      sleep_in?(false, false).must_equal(true)
-    end
+  #   it 'should sleep in on the weekend at home' do
+  #     sleep_in?(false, false).must_equal(true)
+  #   end
 
-    it 'should not sleep in during the week at home' do
-      sleep_in?(true, false).must_equal(false)
-    end
+  #   it 'should not sleep in during the week at home' do
+  #     sleep_in?(true, false).must_equal(false)
+  #   end
 
-    it 'should sleep in on vacation on the weekend' do
-      sleep_in?(false, true).must_equal(true)
-    end
+  #   it 'should sleep in on vacation on the weekend' do
+  #     sleep_in?(false, true).must_equal(true)
+  #   end
 
-    it 'should sleep on vacation during the week' do
-      sleep_in?(true, true).must_equal(true)
-    end
+  #   it 'should sleep on vacation during the week' do
+  #     sleep_in?(true, true).must_equal(true)
+  #   end
 
-  end
+  # end
   
   # describe 'monkey_trouble' do
 
@@ -55,4 +55,16 @@ describe 'Methods' do
 
   # end
 
+  describe 'blackjack' do
+
+  end
+
+  describe 'n_twice' do
+
+  end
+
+  describe 'close_far' do
+
+  end
+  
 end
