@@ -79,15 +79,15 @@
 #
 # TODO - write sum_double
 
-def sum_double(a, b)
-	if a == b 
-		c = a + b 
-		return c * 2
-	elsif a != b 
-		d = a + b
-		return d
-	end	 	 
-end
+# def sum_double(a, b)
+# 	if a == b 
+# 		c = a + b 
+# 		return c * 2
+# 	elsif a != b 
+# 		d = a + b
+# 		return d
+# 	end	 	 
+# end
 
 
 # *****************************************************
@@ -112,7 +112,26 @@ end
 #
 # TODO - write blackjack (tests first)
 
+def blackjack(a,b)
 
+	if a >= 21 || b >= 21
+
+		return 0
+
+	elsif a < 21 || b < 21
+		
+		c = 21 - a
+		d = 21 - b 
+
+		if c > d
+			return b 
+		end
+
+		return a
+
+	end
+
+end
 # n_twice
 #
 # Given a string and an int n, return a string made of the first and last n 
