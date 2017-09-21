@@ -43,28 +43,36 @@ describe 'Methods' do
 
   # end
 
-  # describe 'sum_double' do
+  describe 'sum_double' do
     
-  #   it 'finds the sum' do
-  #     sum_double(1, 2).must_equal(3)
-  #   end
+    it 'finds the sum' do
+      sum_double(1, 2).must_equal(3)
+    end
 
-  #   it 'doubles the sum when the numbers are the same' do
-  #     sum_double(3, 3).must_equal(12)
-  #   end
+    it 'doubles the sum when the numbers are the same' do
+      sum_double(3, 3).must_equal(12)
+    end
 
-  # end
+  end
 
   describe 'blackjack' do
 
+    it 'return value nearest 21' do
+      blackjack(4, 6).must_equal(6)
+    end
+
+    if 'return value nearest 0' do
+      blackjack(23, 25).must_equal(0)
+    end
+
   end
 
-  describe 'n_twice' do
+  # describe 'n_twice' do
 
-  end
+  # end
 
-  describe 'close_far' do
+  # describe 'close_far' do
 
-  end
-  
+  # end
+
 end
