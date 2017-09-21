@@ -47,25 +47,26 @@
 #
 # TODO - write monkey_trouble?
 
-def monkey_trouble?(a_smile, b_smile)
-	if a_smile
-		if b_smile
-			return true
-		end
-		return false
-	end
-	if b_smile
-		if a_smile
-			return true
-		end
-		return false
-	end
-	if !b_smile
-		if !a_smile
-			return true
-		end
-	end
-end
+# def monkey_trouble?(a_smile, b_smile)
+# 	if a_smile
+# 		if b_smile
+# 			return true
+# 		end
+# 		return false
+# 	end
+# 	if b_smile
+# 		if a_smile
+# 			return true
+# 		end
+# 		return false
+# 	end
+# 	if !b_smile
+# 		if !a_smile
+# 			return true
+# 		end
+# 	end
+# end
+
 # sum_double
 #
 # Given two int values, return their sum. Unless the two values are the same,
@@ -78,7 +79,15 @@ end
 #
 # TODO - write sum_double
 
-
+def sum_double(a, b)
+	if a == b 
+		c = a + b 
+		return c * 2
+	elsif a != b 
+		d = a + b
+		return d
+	end	 	 
+end
 
 
 # *****************************************************
