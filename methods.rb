@@ -147,9 +147,9 @@
 #
 # TODO - write n_twice (tests first)
 
-def n_twice(str, n)
+# def n_twice(str, n)
 
-end
+# end
 
 # close_far
 #
@@ -164,3 +164,7 @@ end
 #   * c - an integer
 #
 # TODO - write close_far (tests first)
+
+def close_far(a, b, c)
+
+end
